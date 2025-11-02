@@ -1,1 +1,1 @@
-# weed-infestation-nca
+# Modeling Emergent Vegetation Dynamics: An ARC-NCA Framework for RGB-to-NDVI Estimation from UAV Imagery
