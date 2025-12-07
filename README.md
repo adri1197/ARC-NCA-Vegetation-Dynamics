@@ -21,7 +21,7 @@ This project explores auto-regressive convolutional neural cellular automata (AR
 ## Environment Setup
 1. Python 3.13+ is recommended. Create an env: `python -m venv .venv && source .venv/bin/activate`.
 2. Download & install CUDA toolkit - [docs](https://developer.nvidia.com/cuda-downloads).
-3. Install core deps (adjust CUDA wheels as needed) in requirements.txt
+3. Install core deps (adjust CUDA wheels as needed) in pyproject.toml
 
 ## Quickstart (notebook workflow)
 1. Open `notebooks/ARC_NCA-RGB_to_NDVI_v2.ipynb`.
