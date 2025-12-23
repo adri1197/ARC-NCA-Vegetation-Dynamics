@@ -20,8 +20,8 @@ Full license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ---
 
-NOTE: This project uses the dataset
-"UAV images of native grassland with rosette annotations" 
-(https://zenodo.org/records/14771664),
-licensed under Creative Commons Attribution 4.0 International (CC-BY 4.0).
+NOTE: This project has used the following datasets as part of the development and experimentation phases:
+- "UAV images of native grassland with rosette annotations" - Amparo Quiñones, Jean Savian, Andrés Hirigoyen, João Valente (https://zenodo.org/records/14771664).
+- "VineLiDAR: High-resolution UAV-LiDAR vineyard dataset acquired over two years in northern Spain" - Sergio Vélez, Mar Ariza-Sentís & João Valente (https://zenodo.org/records/8113105).
+Both are licensed under Creative Commons Attribution 4.0 International (CC-BY 4.0).
 Please cite the dataset authors as required by CC-BY 4.0.
