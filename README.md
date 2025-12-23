@@ -1,7 +1,26 @@
 # Modeling Emergent Vegetation Dynamics: An ARC-NCA Framework for RGB-to-NDVI Estimation from UAV Imagery
 
 ## Overview
-This project explores auto-regressive convolutional neural cellular automata (ARC-NCA) to estimate NDVI maps directly from RGB UAV orthomosaics. The model rolls out several NCA steps, using fixed 3×3 perception kernels, stochastic firing masks, and a lightweight update network to evolve hidden state, NDVI output, and alive masks. Training and evaluation are organized in a single notebook
+This repository contains the code and experiments for a Master’s thesis investigating the use of Neural Cellular Automata (ARC-NCA) to reconstruct NDVI-like vegetation indices from UAV RGB imagery. The project explores self-organising, locally interacting models as an interpretable alternative to GAN-based approaches for vegetation modelling in precision agriculture.
+
+## Technical Architecture
+
+The system is organised as a modular pipeline comprising four main components:
+
+1. **Data Preprocessing**: UAV RGB orthomosaics and multispectral data are harmonised through CRS validation, resolution alignment, and window-based sampling. Spectral bands are mapped to reflectance-consistent ranges, and RGB-derived vegetation indices can optionally be computed as auxiliary inputs.
+
+2. **State Representation**: Each image tile is encoded into an initial NCA state tensor consisting of:
+    - RGB input channels (and optional RGB-based indices).
+    - Auxiliary spatial channels (e.g. normalised coordinates, masks).
+    - Hidden state channels used for internal feature propagation.
+
+3. **ARC-NCA Model**: The model applies convolution-based neighbourhood perception and a differentiable update rule to iteratively evolve the state over multiple rollout steps. Residual updates and internal memory enable the emergence of spatial vegetation patterns and NDVI-like representations.
+
+4. **Training and Evaluation**: The automaton is trained on paired RGB–NDVI tiles using rollout-based supervision. Performance is evaluated using standard regression and structural metrics (R², RMSE, MAE, SSIM), and compared against GAN-based and index-based baselines.
+
+This architecture supports scalable experimentation and analysis of both predictive performance and interpretability of learned vegetation dynamics.
+
+**TODO: Add architecture diagram here.**
 
 ## Repository Layout
 <!-- - `notebooks/nca_model.py`: ARC-NCA model, SSIM-stabilized loss, and `train_nca` loop (channels-last friendly, AMP-ready).
