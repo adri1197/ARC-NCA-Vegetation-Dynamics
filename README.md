@@ -76,5 +76,34 @@ This architecture supports scalable experimentation and analysis of both predict
    )
    ```
 
+## Deliverables
+This repository contains all artifacts produced during the development of the thesis “*ARC-NCA for Vegetation Dynamics Reconstruction from RGB UAV Imagery*”.
+The deliverables are organized to support reproducibility, experimentation, and future extension.
+
+### Models & Learning Artifacts
+
+| Artifact                  | Description                                                                 | Format                 |
+| ------------------------- | --------------------------------------------------------------------------- | ---------------------- |
+| ARC-NCA Model             | Adaptive Neural Cellular Automata architecture for RGB → NIR reconstruction | `.ipynb` (Juptyer Notebook)       |
+| Trained Model Checkpoints | Saved ARC-NCA weights for different datasets/configurations                 | `.pth` / `.ckpt`        |
+| Experiment Memory         | Training logs, hyperparameters, rollout configs                             | `.yaml`, `.json`, logs |
+
+### Data Processing & Ground Truth
+
+| Artifact                  | Description                                                          |
+| ------------------------- | -------------------------------------------------------------------- |
+| Preprocessing Pipeline    | Georeferencing, resolution matching, normalization, patch extraction |
+| Ground-Truth NIR Workflow | Extraction of NIR reflectance from multispectral imagery             |
+| NDVI Generation Pipeline  | NDVI computation from reconstructed NIR and RGB Red band             |
+| Shapefile Integration     | Support for trunks, Botrytis clusters, and GCPs                      |
+
+### Evaluation & Benchmarking
+
+| Artifact                 | Description                                                 |
+| ------------------------ | ----------------------------------------------------------- |
+| Evaluation Framework     | Metric computation (RMSE, R², SSIM)                         |
+| Baseline Implementations | GAN-based NDVI synthesis and regression-based VI estimation |
+| Cross-Dataset Validation | Generalization testing across acquisition conditions        |
+
 ## License
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC-SA 4.0). See `LICENSE` for details.
