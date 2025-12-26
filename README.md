@@ -86,7 +86,7 @@ The deliverables are organized to support reproducibility, experimentation, and 
 | ------------------------- | --------------------------------------------------------------------------- | ---------------------- |
 | ARC-NCA Model             | Adaptive Neural Cellular Automata architecture for RGB → NIR reconstruction | `.ipynb` (Juptyer Notebook)       |
 | Trained Model Checkpoints | Saved ARC-NCA weights for different datasets/configurations                 | `.pth` / `.ckpt`        |
-| Experiment Memory         | Training logs, hyperparameters, rollout configs                             | `.yaml`, `.json`, logs |
+| Experiment Memory         | Training metrics (TensorBoard), logs and profiling traces                             | `.lz4`, logs |
 
 ### Data Processing & Ground Truth
 
