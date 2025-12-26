@@ -20,8 +20,9 @@ Full license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ---
 
-NOTE: This project has used the following datasets as part of the development and experimentation phases:
+NOTE: This project has used the following datasets as part of the training, development and experimentation phases:
 - "UAV images of native grassland with rosette annotations" - Amparo Quiñones, Jean Savian, Andrés Hirigoyen, João Valente (https://zenodo.org/records/14771664).
 - "VineLiDAR: High-resolution UAV-LiDAR vineyard dataset acquired over two years in northern Spain" - Sergio Vélez, Mar Ariza-Sentís & João Valente (https://zenodo.org/records/8113105).
-Both are licensed under Creative Commons Attribution 4.0 International (CC-BY 4.0).
+- "A dataset of unmanned aerial vehicle multispectral images acquired over a field to identify nitrogen requirements" - C.L.I.S. Fonseka, Thilina Halloluwa, K.P. Hewagamage, Upul Rathnayake, R.M.U. S Bandara (https://www.sciencedirect.com/science/article/pii/S2352340924004487)
+They are licensed under Creative Commons Attribution 4.0 International (CC-BY 4.0).
 Please cite the dataset authors as required by CC-BY 4.0.
