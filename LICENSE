@@ -21,9 +21,11 @@ Full license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 NOTE: This project has used the following datasets as part of the training, development and experimentation phases:
+- *UAV multispectral imagery dataset over a vineyard affected by Botrytis in 'Tomiño', Pontevedra, Spain. It includes GPS location of vine trunks, diseases and GCP points* - Sergio Velez, Mar Ariza-Sentís, João Valente (https://zenodo.org/records/7383601).
 - *UAV images of native grassland with rosette annotations* - Amparo Quiñones, Jean Savian, Andrés Hirigoyen, João Valente (https://zenodo.org/records/14771664).
-- VineLiDAR: High-resolution UAV-LiDAR vineyard dataset acquired over two years in northern Spain - Sergio Vélez, Mar Ariza-Sentís & João Valente (https://zenodo.org/records/8113105).
-- *A Multispectral UAV Imagery Dataset of Wheat, Soybean and Barley Crops in East Kazakhstan* - Almasbek Maulit, Aliya Nugumanova, Kurmash Apayev, Yerzhan Baiburin, Maxim Sutula (https://www.mdpi.com/2306-5729/8/5/88)
+- *VineLiDAR: High-resolution UAV-LiDAR vineyard dataset acquired over two years in northern Spain* - Sergio Vélez, Mar Ariza-Sentís & João Valente (https://zenodo.org/records/8113105).
+- *Precision viticulture dataset for detailed vineyard mapping composed of geotagged smartphone ground images, phytosanitary status, UAV orthomosaics, 3D point clouds, and RTK GNSS data* - Sergio Vélez, Mar Ariza-Sentís & João Valente (https://zenodo.org/records/10362568).
+- *A Multispectral UAV Imagery Dataset of Wheat, Soybean and Barley Crops in East Kazakhstan* - Almasbek Maulit, Aliya Nugumanova, Kurmash Apayev, Yerzhan Baiburin, Maxim Sutula (https://www.mdpi.com/2306-5729/8/5/88) (Used for training).
 
 They are licensed under Creative Commons Attribution 4.0 International (CC-BY 4.0).
 Please cite the dataset authors as required by CC-BY 4.0.
