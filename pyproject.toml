@@ -9,7 +9,7 @@ description = "ARC-NCA framework to predict NDVI from RGB UAV imagery."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
-authors = [{ name = "Adrian Fernandez de la Torre" }]
+authors = [{ name = "Adrian Fernandez de la Torre" email = "adri1197@gmail.com" }]
 keywords = [
   "ndvi",
   "uav",
@@ -112,11 +112,13 @@ dependencies = [
   "stack-data==0.6.3",
   "stringzilla==4.4.0",
   "sympy==1.14.0",
+  "tabulate==0.9.0"
   "tensorboard==2.20.0",
   "tensorboard-data-server==0.7.2",
   "threadpoolctl==3.6.0",
   "tifffile==2025.10.16",
   "torch==2.9.1",
+  torchmetrics="1.8.2",
   "torchvision==0.24.1",
   "tornado==6.5.2",
   "tqdm==4.67.1",
@@ -124,6 +126,7 @@ dependencies = [
   "triton==3.5.1",
   "typing-inspection==0.4.2",
   "typing_extensions==4.15.0",
+  "graphviz"=="0.21",
   "tzdata==2025.2",
   "wcwidth==0.2.14",
   "Werkzeug==3.1.4",
