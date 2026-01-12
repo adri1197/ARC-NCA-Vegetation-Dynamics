@@ -3,6 +3,10 @@
 ## Overview
 This repository contains the code and experiments for a Master’s thesis investigating the use of Neural Cellular Automata (ARC-NCA) to reconstruct NDVI-like vegetation indices from UAV RGB imagery. The project explores self-organising, locally interacting models as an interpretable alternative to GAN-based approaches for vegetation modelling in precision agriculture.
 
+![NIR Prediction Output](docs/images/NIR_output.png)
+
+![NDVI Output](docs/images/NVDI_output.png)
+
 ## Technical Architecture
 
 The system is organised as a modular pipeline comprising four main components:
@@ -36,6 +40,8 @@ This architecture supports scalable experimentation and analysis of both predict
 - Place orthomosaic TIFs under `dataset/<scene>/tif/`. Multi-band files are supported; bands `[1,2,3,4,5]` are treated as RGB + NIR + extra.
 - Optional shapefiles (e.g., botrytis, trunk masks) can be passed to the dataset for priors; see cells defining `VineyardDataset`.
 - Patches are read lazily via rasterio windows; configure `patch_size` and `stride` to balance coverage and throughput.
+
+![RGB Input](docs/images/RGB_input.png)
 
 ## Environment Setup
 1. Python 3.13+ is recommended. Create an env: `python -m venv .venv && source .venv/bin/activate`.
