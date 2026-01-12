@@ -20,7 +20,7 @@ The system is organised as a modular pipeline comprising four main components:
 
 This architecture supports scalable experimentation and analysis of both predictive performance and interpretability of learned vegetation dynamics.
 
-**TODO: Add architecture diagram here.**
+![ARC-NCA Architecture](docs/images/ARC-NCA-Architecture.png)
 
 ## Repository Layout
 <!-- - `notebooks/nca_model.py`: ARC-NCA model, SSIM-stabilized loss, and `train_nca` loop (channels-last friendly, AMP-ready).
