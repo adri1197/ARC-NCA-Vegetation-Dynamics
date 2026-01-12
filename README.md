@@ -5,7 +5,7 @@ This repository contains the code and experiments for a Master’s thesis invest
 
 ![NIR Prediction Output](docs/images/NIR_output.png)
 
-![NDVI Output](docs/images/NVDI_output.png)
+![NDVI Output](docs/images/NDVI_output.png)
 
 ## Technical Architecture
 
